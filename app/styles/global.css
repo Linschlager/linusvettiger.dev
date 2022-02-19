@@ -1,0 +1,71 @@
+
+:root {
+  --background: rgb(57, 62, 65); /* Onyx */
+  --primary: rgb(79, 134, 198); /* Steel Blue */
+  --primary-fg: rgb(198, 226, 233); /* Light Blue */
+  --secondary: rgb(77, 170, 87); /* Green Pantone */
+  --secondary-fg: rgb(181, 221, 164); /* Celadon */
+
+  --transition: 0.125s all ease-in-out;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18pt;
+}
+
+body, a {
+  background-color: var(--background);
+  color: var(--primary-fg);
+}
+
+.primary {
+  color: var(--primary-fg);
+  background-color: var(--primary);
+  transition: var(--transition);
+}
+
+.primary:hover {
+  filter: opacity(80%);
+}
+
+button.primary {
+  padding: 1em;
+  border: 0.2em solid var(--primary);
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.secondary {
+  color: var(--secondary-fg);
+  background-color: var(--secondary);
+}
+.secondary:hover {
+  filter: opacity(80%);
+}
+
+li {
+  padding: .6em;
+}
+
+a {
+  padding: .5em;
+  text-decoration: none;
+}
+
+a:hover {
+
+}
+
+small {
+  font-size: 6pt;
+}
