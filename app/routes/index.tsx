@@ -18,9 +18,9 @@ export default function Index() {
       <article className="socials page" id="socials">
         <h2>My socials: <small>I don't have a whole lot</small></h2>
         <div className="socials-list">
-          <a rel="noopener noreferrer" href="https://github.com/Linschlager" className="primary">GitHub</a>
-          <a rel="noopener noreferrer" href="https://stackoverflow.com/users/5228642" className="primary">StackOverflow</a>
-          <a rel="noopener noreferrer" href="https://www.reddit.com/user/Linschlager" className="primary">Reddit</a>
+          <a href="https://github.com/Linschlager" rel="noopener noreferrer" target="_blank" className="primary">GitHub</a>
+          <a href="https://stackoverflow.com/users/5228642" rel="noopener noreferrer" target="_blank" className="primary">StackOverflow</a>
+          <a href="https://www.reddit.com/user/Linschlager" rel="noopener noreferrer" target="_blank" className="primary">Reddit</a>
         </div>
       </article>
     </div>
